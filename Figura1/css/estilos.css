@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+*{   
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{ 
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100px 870px;
+   
+}
+
+
+.c1{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+
+}
+
+.c2{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+
+}
+
+.c3{
+    background-color: rgb(255, 145, 0);
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.opciones{
+   border-bottom: 2px solid white;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   color: white;
+
+
+}
+
+.c4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 5% 10% 10% 30% 30% 9%;
+    gap: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.caatx{
+    background-color: rgb(255, 255, 255);
+    margin-right: 4%;
+    margin-left: 3%;
+}
+
+.j1{
+    grid-column:  1 / span 4;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.j2{
+    grid-column:  1 / span 4;
+    border: 2px solid rgb(82, 81, 81);
+}
+
+.j4, .j5{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid rgb(82, 81, 81);
+}
+
+.j7{
+    grid-column:  1 / span 4;
+    display: grid;
+    grid-template-columns: 42% 57.2%;
+    gap:9px;
+}
+
+.j6{
+    border: 2px solid rgb(82, 81, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 57px;
+}
+
+
+.j3{
+    border: 2px solid rgb(82, 81, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42px;
+}
+
+.j8{
+    grid-column:  1 / span 4;
+    border: 2px solid rgb(82, 81, 81);
+}
+
+.j9{
+    grid-column:  1 / span 4;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.k1{
+    border: 2px solid rgb(82, 81, 81);
+}
+.k2{
+    border: 2px solid rgb(82, 81, 81);
+}
+
+i{
+    font-size: 40px;
+
+}
